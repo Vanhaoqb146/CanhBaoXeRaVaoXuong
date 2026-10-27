@@ -1,1 +1,6 @@
-boto3==1.43.119
+ultralytics
+supervision
+opencv-python-headless
+requests
+numpy
+boto3
