@@ -1,0 +1,122 @@
+{
+  "rtsp_url": "rtsp://admin:hd543211@thinhkhaivinh2.cameraddns.net:1024/Streaming/Channels/1101",
+  "debug_mode": true,
+  "debug_log_interval": 30,
+  "polygon_zone": [
+    {
+      "x": 8,
+      "y": 249
+    },
+    {
+      "x": 67,
+      "y": 625
+    },
+    {
+      "x": 420,
+      "y": 301
+    },
+    {
+      "x": 222,
+      "y": 73
+    }
+  ],
+  "gate_line_zone": [
+    {
+      "x": 192,
+      "y": 91
+    },
+    {
+      "x": 388,
+      "y": 354
+    }
+  ],
+  "target_classes": [
+    2,
+    3,
+    5,
+    7
+  ],
+  "frame_skip": 1,
+  "detection_conf": 0.22,
+  "alert_min_conf": {
+    "2": 0.28,
+    "3": 0.3
+  },
+  "class_min_consecutive_detections": {
+    "2": 2,
+    "5": 2,
+    "7": 2
+  },
+  "fast_vehicle_classes": [
+    2,
+    5,
+    7
+  ],
+  "fast_vehicle_min_move": 12.0,
+  "fast_vehicle_observe_time": 0.0,
+  "days_to_keep_images": 3,
+  "tracker_config": "tracker_botsort.yaml",
+  "alert_cooldown_sec": 5.0,
+  "generic_alert_cooldown_sec": 30.0,
+  "stale_track_sec": 3.0,
+  "min_inside_frames": 3,
+  "inner_window_size": 7,
+  "min_motion_samples": 3,
+  "max_observation_sec": 5.0,
+  "stationary_min_entry_delta": 30.0,
+  "stationary_min_flow_delta": 18.0,
+  "flow_x_weight": -1.0,
+  "flow_y_weight": 1.0,
+  "min_flow_delta": 14.0,
+  "min_flow_total_move": 18.0,
+  "exit_gate_scale": 1.28,
+  "exit_gate_top_margin": 80.0,
+  "exit_gate_x_margin": 120.0,
+  "exit_gate_min_flow_delta": 12.0,
+  "anchor_y_ratio": 0.8,
+  "line_crossing_enabled": true,
+  "gate_line_min_cross_distance": 10.0,
+  "gate_line_side_tolerance": 3.0,
+  "gate_line_debug_draw": false,
+  "gate_line_require_context": true,
+  "gate_line_in_snapshot_delay_sec": 0.6,
+  "gate_line_in_min_after_cross_move": 15.0,
+  "gate_line_out_min_after_cross_move": 4.0,
+  "snapshot_area_gain": 1.0,
+  "snapshot_center_weight": 0.35,
+  "snapshot_zone_bonus": 0.12,
+  "stationary_displacement_threshold": 50.0,
+  "stationary_total_move_threshold": 55.0,
+  "spatial_dedup_distance": 100.0,
+  "spatial_dedup_sec": 3.0,
+  "global_direction_cooldown_sec": 3.0,
+  "operating_hour_end": 19,
+  "night_conf_boost": 0.15,
+  "min_box_area_day": 800,
+  "min_box_area_night": 1500,
+  "min_consecutive_detections": 3,
+  "instant_line_cross_threshold": 25.0,
+  "max_stop_count": 2,
+  "stationary_oscillation_ratio": 0.3,
+  "large_vehicle_snapshot_hold_sec": 1.5,
+  "imgbb_key": "625e252fc51a1200c768c56b6a20b670",
+  "imgbb_expiration": 259200,
+  "imgbb_max_retries": 5,
+  "zalo_bots": [
+    {
+      "name": "Bot 1",
+      "bot_token": "1615661840054133513:apOWhvuyrlClmhbYjkRssRsXRBXMnHIHKxGgfAYMrdxJldxMyigsBzWUpqXHkGfV",
+      "chat_id": "6fecfd9b0bd9e287bbc8"
+    },
+    {
+      "name": "Bot 2",
+      "bot_token": "1904670321979981637:eOdfYugLYVYLYkeeUOxwcQKSchtuKzpAzreExZbPQmkVToNRTcPohZEbKgsfgfyw",
+      "chat_id": "4886e7cabc8555db0c94"
+    },
+    {
+      "name": "Bot 3",
+      "bot_token": "3963719521771070708:ZmSnBpPwftyNiOQtistgmdJzAUFBDBrOJvmlJDbeolVcuMXAVuJLKgCucENGkqhp",
+      "chat_id": "8ddf7f6e452dac73f53c"
+    }
+  ]
+}

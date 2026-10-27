@@ -1,0 +1,9 @@
+{
+  "endpoint_url": "https://79a715f32ffdac1cb71c1a12de644f9c.r2.cloudflarestorage.com",
+  "bucket_name": "ravaoxuong-alerts",
+  "access_key_id": "5b255dfc58d2cd5b08c23af4f1d07ce3",
+  "secret_access_key": "0e1d4704618b10e99098a402b417d171609b786a19f2e642e3e8129d558f243c",
+  "key_prefix": "alerts",
+  "url_ttl_seconds": 345600,
+  "public_base_url": "https://pub-42bc7c688f714f0883337b5baeb8098c.r2.dev"
+}
